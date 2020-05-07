@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     @Override
-    public void onGetDivCalcul(int nb1, int nb2) {
-        tvDiv.setText(nb1 / nb2 +"");
+    public void onGetDivCalcul(int result) {
+        tvDiv.setText(result +"");
     }
 }

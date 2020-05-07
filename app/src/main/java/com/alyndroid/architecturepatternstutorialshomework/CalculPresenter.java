@@ -11,7 +11,7 @@ CalculView view ;
     }*/
     public void CalculDivArith(){
         DataBase db = new DataBase();
-     //   int result =   ( db.getNumbers().getFirstNum() ) /  ( db.getNumbers().getSecondNum());
-     view.onGetDivCalcul(db.getNumbers().getFirstNum(),db.getNumbers().getSecondNum());
+       int result =   ( db.getNumbers().getFirstNum() ) /  ( db.getNumbers().getSecondNum());
+     view.onGetDivCalcul(result);
     }
 }
